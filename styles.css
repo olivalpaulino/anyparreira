@@ -1,32 +1,54 @@
 /* Estilo Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('fundo.png');
+}
   
-  .header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fdf3f0;
-  }
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
   
   .alert-message {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #333;
+  }
+
+  span{
     color: #e63946;
-    margin-bottom: 10px;
+    font-weight: bold;
   }
   
   .expert-image {
     max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .cta-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .cta-subtitle {
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -39,24 +61,83 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
-  textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: none;
+
+  .check-list {
+    list-style: none;
   }
-  
-  /* Estilo para telas maiores */
-  @media (min-width: 768px) {
-    .cta-title {
-      font-size: 24px;
-    }
-  
-    textarea {
-      font-size: 18px;
-    }
+
+  .check-list li {
+    position: relative; /* Permite posicionar o símbolo dentro do <li> */
+    padding-left: 5px; /* Espaço para o marcador */
+    margin-bottom: 10px;
   }
-  
+
+  .check-list li::before {
+  content: "✔"; /* O símbolo de check */
+  position: relative;
+  left: 0; /* Alinha o símbolo à esquerda */
+  color: green; /* Altere a cor do símbolo se desejar */
+  font-size: 16px; /* Ajuste o tamanho do símbolo */
+}
+
+.btn-compra-div {
+  text-align: center;
+}
+
+#btn-compra {
+  width: 150px;
+}
+
+.descricao {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.conteudo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.especialista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.modulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.modulo {
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.duvidas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
