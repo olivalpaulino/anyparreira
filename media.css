@@ -1,46 +1,19 @@
   /* Estilo para telas maiores */
   @media (min-width: 320px) { 
-    .alert-message {
-      font-size: 14px;
-    }
-
-    .cta-title {
-        font-size: 12px;
-    }
-
-    .cta-subtitle {
-        font-size: 11px;
-    }
-
-    li {
-        font-size: 11px;
-    }
-
-    .btn btn-success {
-        font-size: 11px;
-    }
-
-    
-    #btn-compra {
-        font-size: 15px;
-    }
-
+    .alert-message { font-size: 14px; }
+    .cta-title { font-size: 12px; }
+    .cta-subtitle { font-size: 11px; }
+    li { font-size: 11px; }
+    .btn btn-success { font-size: 11px;}
+    #btn-compra { font-size: 11px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 11px; }
 
     .modulo {
       width: 140px;
       height: 270px;
-    }
-
-    h2 {
-      font-size: 14px;
-    }
-
-    h3 {
-      font-size: 11px;
-    }
-
-    p {
-      font-size: 11px;
     }
 
     .anyparreira {
