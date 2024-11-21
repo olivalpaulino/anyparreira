@@ -1,5 +1,397 @@
-  /* Estilo para telas maiores */
-  @media (min-width: 320px) { 
+  @media (min-width: 1441px) and (max-width: 1920px) {
+    .alert-message { font-size: 28px; }
+    .cta-title { font-size: 24px; }
+    .cta-subtitle { font-size: 22px; }
+    li { font-size: 18px; }
+    .btn btn-success { font-size: 18px;}
+    #btn-compra { font-size: 18px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 18px; }
+    p {  font-size: 18px; }
+    .check-list li{
+      padding-left: 500px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 250px;
+    }
+
+    .modulo {
+      width: 260px;
+      height: 480px;
+    }
+
+    .anyparreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    .carreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    #whatsapp {
+      width: 720px;
+      height: 420px;
+    }
+  }
+
+  @media (min-width: 1081px) and (max-width: 1440px) {
+    .alert-message { font-size: 28px; }
+    .cta-title { font-size: 24px; }
+    .cta-subtitle { font-size: 22px; }
+    li { font-size: 18px; }
+    .btn btn-success { font-size: 18px;}
+    #btn-compra { font-size: 18px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 18px; }
+    p {  font-size: 18px; }
+    .check-list li{
+      padding-left: 460px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 250px;
+    }
+
+    .modulo {
+      width: 260px;
+      height: 480px;
+    }
+
+    .anyparreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    .carreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    #whatsapp {
+      width: 720px;
+      height: 420px;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1080px) {
+    .alert-message { font-size: 24px; }
+    .cta-title { font-size: 20px; }
+    .cta-subtitle { font-size: 18px; }
+    li { font-size: 16px; }
+    .btn btn-success { font-size: 16px;}
+    #btn-compra { font-size: 16px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 16px; }
+    p {  font-size: 16px; }
+    .check-list li{
+      padding-left: 350px; /* Espaço para o marcador */
+    }  
+    #btn-compra {
+      width: 220px;
+    } 
+
+    .modulo {
+      width: 260px;
+      height: 480px;
+    }
+
+    .anyparreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    .carreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    #whatsapp {
+      width: 720px;
+      height: 420px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .alert-message { font-size: 20px; }
+    .cta-title { font-size: 20px; }
+    .cta-subtitle { font-size: 18px; }
+    li { font-size: 16px; }
+    .btn btn-success { font-size: 16px;}
+    #btn-compra { font-size: 16px; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 16px; }
+    p {  font-size: 16px; }
+    .check-list li{
+      padding-left: 320px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 220px;
+    } 
+
+    .modulo {
+      width: 260px;
+      height: 480px;
+    }
+
+    .anyparreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    .carreira {
+      width: 720px;
+      height: 420px;
+    }
+
+    #whatsapp {
+      width: 720px;
+      height: 420px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 768px) {
+    .alert-message { font-size: 18px; }
+    .cta-title { font-size: 15px; }
+    .cta-subtitle { font-size: 13px; }
+    li { font-size: 13px; }
+    .btn btn-success { font-size: 13px;}
+    #btn-compra { font-size: 13px; }
+    h1 { font-size: 18px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 14px; }
+    p {  font-size: 13px; }
+    .check-list li{
+      padding-left: 220px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 200px;
+    } 
+
+    .modulo {
+      width: 180px;
+      height: 330px;
+    }
+
+    .anyparreira {
+      width: 550px;
+      height: 320px;
+    }
+
+    .carreira {
+      width: 560px;
+      height: 350px;
+    }
+
+    #whatsapp {
+      width: 560px;
+      height: 320px;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 640px) {
+    .alert-message { font-size: 18px; }
+    .cta-title { font-size: 15px; }
+    .cta-subtitle { font-size: 13px; }
+    li { font-size: 12px; }
+    .btn btn-success { font-size: 12px;}
+    #btn-compra { font-size: 12px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 12px; }
+    .check-list li{
+      padding-left: 170px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 180px;
+    } 
+
+    .modulo {
+      width: 180px;
+      height: 330px;
+    }
+
+    .anyparreira {
+      width: 400px;
+      height: 240px;
+    }
+
+    .carreira {
+      width: 390px;
+      height: 240px;
+    }
+
+    #whatsapp {
+      width: 390px;
+      height: 240px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 576px) {
+    .alert-message { font-size: 18px; }
+    .cta-title { font-size: 15px; }
+    .cta-subtitle { font-size: 13px; }
+    li { font-size: 12px; }
+    .btn btn-success { font-size: 12px;}
+    #btn-compra { font-size: 12px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 12px; }
+    .check-list li{
+      padding-left: 130px; /* Espaço para o marcador */
+    } 
+    #btn-compra {
+      width: 150px;
+    }   
+
+    .modulo {
+      width: 180px;
+      height: 330px;
+    }
+
+    .anyparreira {
+      width: 400px;
+      height: 240px;
+    }
+
+    .carreira {
+      width: 390px;
+      height: 240px;
+    }
+
+    #whatsapp {
+      width: 390px;
+      height: 240px;
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 480px) {
+    .alert-message { font-size: 18px; }
+    .cta-title { font-size: 15px; }
+    .cta-subtitle { font-size: 13px; }
+    li { font-size: 12px; }
+    .btn btn-success { font-size: 12px;}
+    #btn-compra { font-size: 12px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 12px; }
+    .check-list li{
+      padding-left: 80px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 130px;
+    } 
+
+
+    .modulo {
+      width: 180px;
+      height: 330px;
+    }
+
+    .anyparreira {
+      width: 400px;
+      height: 240px;
+    }
+
+    .carreira {
+      width: 390px;
+      height: 240px;
+    }
+
+    #whatsapp {
+      width: 390px;
+      height: 240px;
+    }
+  }
+
+  @media (min-width: 376px) and (max-width: 425px) {
+    .alert-message { font-size: 17px; }
+    .cta-title { font-size: 15px; }
+    .cta-subtitle { font-size: 13px; }
+    li { font-size: 12px; }
+    .btn btn-success { font-size: 12px;}
+    #btn-compra { font-size: 12px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 12px; }
+    .check-list li{
+      padding-left: 50px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 130px;
+    } 
+
+
+    .modulo {
+      width: 180px;
+      height: 330px;
+    }
+
+    .anyparreira {
+      width: 400px;
+      height: 240px;
+    }
+
+    .carreira {
+      width: 390px;
+      height: 240px;
+    }
+
+    #whatsapp {
+      width: 390px;
+      height: 240px;
+    }
+  }
+
+  @media (min-width: 321px) and (max-width: 375px) {
+    .alert-message { font-size: 15px; }
+    .cta-title { font-size: 13px; }
+    .cta-subtitle { font-size: 12px; }
+    li { font-size: 12px; }
+    .btn btn-success { font-size: 12px;}
+    #btn-compra { font-size: 12px; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    p {  font-size: 12px; }
+    .check-list li{
+      padding-left: 40px; /* Espaço para o marcador */
+    }   
+    #btn-compra {
+      width: 130px;
+    } 
+
+
+    .modulo {
+      width: 160px;
+      height: 290px;
+    }
+
+    .anyparreira {
+      width: 400px;
+      height: 240px;
+    }
+
+    .carreira {
+      width: 320px;
+      height: 200px;
+    }
+
+    #whatsapp {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  @media (min-width: 260px) and (max-width: 320px) {
     .alert-message { font-size: 14px; }
     .cta-title { font-size: 12px; }
     .cta-subtitle { font-size: 11px; }
@@ -10,13 +402,24 @@
     h2 { font-size: 14px; }
     h3 { font-size: 12px; }
     p {  font-size: 11px; }
+    .check-list li{
+      padding-left: 20px; /* Espaço para o marcador */
+    }
+    #btn-compra {
+      width: 130px;
+    } 
 
     .modulo {
       width: 140px;
-      height: 270px;
+      height: 250px;
     }
 
     .anyparreira {
+      width: 300px;
+      height: 180px;
+    }
+
+    .carreira {
       width: 300px;
       height: 180px;
     }
